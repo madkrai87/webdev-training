@@ -14,3 +14,4 @@ else{echo "Minor"}
 //Arrays
 $skills=["HTML","CSS"]
 foreach($skilss as $s){echo"<li>$s</li>;}
+?>
