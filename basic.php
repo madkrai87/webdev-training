@@ -1,17 +1,19 @@
 <?php
-//Variables lways start with $
-$name="Alice";
-$age="25";
-$isAdmin= true;
-
-//Output to page
-echo "Hello".$name;
-
+//Varialbes always start with a $ sign
+$name = "John";
+$age = 30;
+$height = 1.75; 
+//Output to page    
+echo "Hello " . $name;
 //Conditionals
-if ($age>=18){echo "Adult";}
-else{echo "Minor"}
-
+if ($age > 18) {
+    echo "Adult";
+} else {
+    echo "Minor";
+}   
 //Arrays
-$skills=["HTML","CSS"]
-foreach($skilss as $s){echo"<li>$s</li>;}
+$skills =["HTML","CSS"];
+foreach ($skills as $s) {
+echo"<li>" . $s . "</li>";
+}
 ?>
